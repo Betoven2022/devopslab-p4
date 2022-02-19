@@ -2,3 +2,7 @@ Dockerfile
 .git
 .gitignore
 Procfile
+Dockerfile
+.git
+.gitignore
+Procfile
