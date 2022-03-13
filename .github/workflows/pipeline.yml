@@ -105,4 +105,5 @@ jobs:
           image_url: ${{ secrets.ARTIFACT_REGISTRY }}/myapp:latest
 
       - name: Prod Test
-        run: 'curl "${{ steps.appengine.outputs.url }}"'
+        run: 'curl "${{ steps.appengine.outputs.url }}"',
+        
